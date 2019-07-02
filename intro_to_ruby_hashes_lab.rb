@@ -24,5 +24,5 @@ end
 
 def update_counting_hash(hash, key)
   hash.key?(key) ? hash[key] += 1 : hash[key] = 1
-  puts hash[key]
+  return hash[key]
 end
